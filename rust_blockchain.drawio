@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-04-26T03:21:10.433Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="rKqpza0aAArSitfUePKV" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="sc0bgjhB_g8PdG8TXqsW">
+    <mxGraphModel dx="829" dy="814" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t4PbKKk8h-PYGMoFjnkI-15" target="t4PbKKk8h-PYGMoFjnkI-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-15" value="Block::new&lt;br&gt;新建block" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="103" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t4PbKKk8h-PYGMoFjnkI-16" target="t4PbKKk8h-PYGMoFjnkI-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-16" value="block.mine()&lt;br&gt;执行挖矿" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="290" y="103" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-17" value="BlockChain.update_with_block&lt;br&gt;将block添加进链" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="103" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-20" value="index高度&lt;br&gt;timestamp 时间戳&lt;br&gt;上一个块hash&lt;br&gt;transactions 交易列表" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="60" y="210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-22" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="400" as="sourcePoint" />
+            <mxPoint x="140" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-23" value="从0遍历nonce&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="158" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-26" value="获取block 的hash值" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="210" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-27" value="将hash与difficulty比对&lt;br&gt;如果当前difficulty大于该区块hash值&lt;br&gt;则验证通过" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="263" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-28" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="410" as="sourcePoint" />
+            <mxPoint x="340" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-29" value="1，验证高度不等于当前区块长度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="148" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-30" value="2，验证当前difficulty 大于 区块hash" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="188" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-31" value="3，验证时间大于上一个块的时间" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="218" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-32" value="5，验证区块pre_block_hash 与上一个块的hash相同" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="280" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-34" value="4，验证是否已经初始化块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="250" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-35" value="6，获取transactions 默克尔树" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="450" y="318" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t4PbKKk8h-PYGMoFjnkI-36" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="400" as="sourcePoint" />
+            <mxPoint x="570" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
