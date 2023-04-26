@@ -7,4 +7,4 @@
 ### Transaction
 ### Blockchain
 
-![简单图]("./rust_blockchain.png")
+![简单图](./rust_blockchain.png)
